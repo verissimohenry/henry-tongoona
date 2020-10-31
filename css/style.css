@@ -1,8 +1,32 @@
 body {
     text-align: center;
-    background-color: rgb(100, 50, 245,);
+    
 }
-fieldset {
-    margin-left: 30%;
-    margin-right: 30%;
+#survay-form{
+    background-color: coral;
+    width: 900px;
+    margin: auto;
+}
+
+row-tab{
+    display: block;
+    padding-top: 20% ;
+}
+
+.label-burger {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.input-buger {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.label-select{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
 }
